@@ -1,0 +1,17 @@
+{
+    "buildNpmdoc":"ionic-plugin-keyboard",
+    "devDependencies": {
+        "ionic-plugin-keyboard": "*",
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "name":"npmdoc-ionic-plugin-keyboard",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmdoc/node-npmdoc-ionic-plugin-keyboard"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh"
+    },
+    "version": "0.0.1"
+}
