@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"ionic-plugin-keyboard",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "ionic-plugin-keyboard",
+    "description": "api documentation for [ionic-plugin-keyboard (v2.2.1)](https://github.com/driftyco/ionic-plugin-keyboard#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-ionic-plugin-keyboard.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ionic-plugin-keyboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ionic-plugin-keyboard.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ionic-plugin-keyboard)",
     "devDependencies": {
-        "ionic-plugin-keyboard": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "ionic-plugin-keyboard": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-ionic-plugin-keyboard",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-ionic-plugin-keyboard",
+    "keywords": [
+        "documentation",
+        "ionic-plugin-keyboard"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_ionic_plugin_keyboard.js",
+    "name": "npmdoc-ionic-plugin-keyboard",
+    "nameAlias": "npmdoc_ionic_plugin_keyboard",
+    "nameOriginal": "npmdoc-ionic-plugin-keyboard",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-ionic-plugin-keyboard"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
