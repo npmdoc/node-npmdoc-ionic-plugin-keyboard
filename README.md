@@ -1,9 +1,14 @@
-# api documentation for  [ionic-plugin-keyboard (v2.2.1)](https://github.com/driftyco/ionic-plugin-keyboard#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ionic-plugin-keyboard.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ionic-plugin-keyboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ionic-plugin-keyboard.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ionic-plugin-keyboard)
+# npmdoc-ionic-plugin-keyboard
+
+#### api documentation for  [ionic-plugin-keyboard (v2.2.1)](https://github.com/driftyco/ionic-plugin-keyboard#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ionic-plugin-keyboard.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ionic-plugin-keyboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ionic-plugin-keyboard.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ionic-plugin-keyboard)
+
 #### Ionic Keyboard Plugin
 
-[![NPM](https://nodei.co/npm/ionic-plugin-keyboard.png?downloads=true)](https://www.npmjs.com/package/ionic-plugin-keyboard)
+[![NPM](https://nodei.co/npm/ionic-plugin-keyboard.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ionic-plugin-keyboard)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-ionic-plugin-keyboard/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-ionic-plugin-keyboard_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ionic-plugin-keyboard/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-ionic-plugin-keyboard/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-ionic-plugin-keyboard/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-ionic-plugin-keyboard/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ionic-plugin-keyboard/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-ionic-plugin-keyboard/build/screenCapture.npmPackageListing.svg)
 
@@ -57,21 +62,17 @@
     "license": "Apache 2.0",
     "maintainers": [
         {
-            "name": "drifty",
-            "email": "max@drifty.com"
+            "name": "drifty"
         },
         {
-            "name": "ionicjs",
-            "email": "hi@ionicframework.com"
+            "name": "ionicjs"
         },
         {
-            "name": "tlancina",
-            "email": "tim@ionic.io"
+            "name": "tlancina"
         }
     ],
     "name": "ionic-plugin-keyboard",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/driftyco/ionic-plugin-keyboard.git"
@@ -80,16 +81,6 @@
     "version": "2.2.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module ionic-plugin-keyboard](#apidoc.module.ionic-plugin-keyboard)
-
-
-
-# <a name="apidoc.module.ionic-plugin-keyboard"></a>[module ionic-plugin-keyboard](#apidoc.module.ionic-plugin-keyboard)
 
 
 
